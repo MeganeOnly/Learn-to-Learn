@@ -1,0 +1,6 @@
+# 强制文本文件使用 LF 行尾（避免 Windows CRLF 污染 diff 与破坏 .gitignore pattern）
+* text=auto eol=lf
+
+# Markdown 显式 UTF-8
+*.md text eol=lf
+*.markdown text eol=lf
